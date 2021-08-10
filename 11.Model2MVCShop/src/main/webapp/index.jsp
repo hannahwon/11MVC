@@ -50,8 +50,20 @@
 			});
 		});
 		
+		
 	</script>	
+	<style type="text/css">
+		.product-image {
+  		width: 100%;
+  		height: 245px;
+						}
+						
+		.product-image .img-fluid {
+  		max-width: 100%;
+  		height: 100%;
+								}
 	
+	</style>
 </head>
 
 <body>
@@ -61,7 +73,7 @@
 		
         <div class="container">
         
-        	<a class="navbar-brand" href="#">Model2 MVC Shop</a>
+        	<a class="navbar-brand" href="#" style="font-size:30px;font-family:'더페이스샵 잉크립퀴드체';">Hyewon's MiniShop</a>
 			
 			<!-- toolBar Button Start //////////////////////// -->
 			<div class="navbar-header">
@@ -76,8 +88,8 @@
 			
 			<div class="collapse navbar-collapse"  id="target">
 	             <ul class="nav navbar-nav navbar-right">
-	                 <li><a href="#">회원가입</a></li>
-	                 <li><a href="#">로 그 인</a></li>
+	                 <li><a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">회원가입</a></li>
+	                 <li><a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">로 그 인</a></li>
 	           	</ul>
 	       </div>
    		
@@ -95,48 +107,48 @@
 			<div class="col-md-3">
 		        
 		       	<!--  회원관리 목록에 제목 -->
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<i class="glyphicon glyphicon-heart"></i> 회원관리
+				<div class="panel panel-pink-100">
+					<div class="panel-heading" style="font-size:23px;font-family:'더페이스샵 잉크립퀴드체';">
+						<i class="glyphicon glyphicon-heart" ></i> 회원관리
          			</div>
          			<!--  회원관리 아이템 -->
 					<ul class="list-group">
 						 <li class="list-group-item">
-						 	<a href="#">개인정보조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						 	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">개인정보조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						 </li>
 						 <li class="list-group-item">
-						 	<a href="#">회원정보조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						 	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">회원정보조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						 </li>
 					</ul>
 		        </div>
                
                
-				<div class="panel panel-primary">
-					<div class="panel-heading">
+				<div class="panel panel-pink">
+					<div class="panel-heading" style="font-size:23px;font-family:'더페이스샵 잉크립퀴드체';">
 							<i class="glyphicon glyphicon-briefcase"></i> 판매상품관리
          			</div>
 					<ul class="list-group">
 						 <li class="list-group-item">
-						 	<a href="#">판매상품등록</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						 	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">판매상품등록</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						 </li>
 						 <li class="list-group-item">
-						 	<a href="#">판매상품관리</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						 	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">판매상품관리</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						 </li>
 					</ul>
 		        </div>
                
                
-				<div class="panel panel-primary">
-					<div class="panel-heading">
+				<div class="panel panel-pink">
+					<div class="panel-heading" style="font-size:23px;font-family:'더페이스샵 잉크립퀴드체';">
 							<i class="glyphicon glyphicon-shopping-cart"></i> 상품구매
 	    			</div>
 					<ul class="list-group">
-						 <li class="list-group-item"><a href="#">상품검색</a></li>
+						 <li class="list-group-item"><a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">상품검색</a></li>
 						  <li class="list-group-item">
-						  	<a href="#">구매이력조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						  	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">구매이력조회</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						  </li>
 						 <li class="list-group-item">
-						 	<a href="#">최근본상품</a> <i class="glyphicon glyphicon-ban-circle"></i>
+						 	<a href="#" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">최근본상품</a> <i class="glyphicon glyphicon-ban-circle"></i>
 						 </li>
 					</ul>
 				</div>
@@ -146,17 +158,16 @@
 
 	 	 	<!--  Main start /////////////////////////////////////-->   		
 	 	 	<div class="col-md-9">
-				<div class="jumbotron">
-			  		<h1>Model2 MVC Shop</h1>
-			  		<p>로그인 후 사용가능...</p>
-			  		<p>로그인 전 검색만 가능합니다.</p>
-			  		<p>회원가입 하세요.</p>
+				<div class="jumbotron" style="background-color:white;">
+			  		<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDAxMjBfMSAg/MDAxNTc5NDQ5NDA4Njc0.FYohCwN29zWB9HW6YtYga-39IvR5L3mwGL8nY8FeWIAg.0FpBGwGJ-ozx582-C58WCIQF7LpOs5pq67Tr6fDuPHog.JPEG.casachampion/Wallpaper-About-Time-18.jpg?type=w800" 
+			  				class="img-fluid" style="width:700px; height:400px;" alt="...">			  	
+			  		<p style="text-align:center; font-size:50px; font-family:'더페이스샵 잉크립퀴드체'; ">시간은 당신을 기다려주지 않는다.</p>			  	
 			  		
-			  		<div class="text-center">
-			  			<a class="btn btn-info btn-lg" href="#" role="button">회원가입</a>
-			  			<a class="btn btn-info btn-lg" href="#" role="button">로 그 인</a>
+			  		 <!--  <div class="text-center">
+			  			<a class="btn btn-default btn-lg" href="#" role="button" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">회원가입</a>
+			  			<a class="btn btn-default btn-lg" href="#" role="button" style="font-size:20px;font-family:'더페이스샵 잉크립퀴드체';">로 그 인</a>
 			  		</div>
-			  	
+			  	-->
 			  	</div>
 	        </div>
 	   	 	<!--  Main end /////////////////////////////////////-->   		
