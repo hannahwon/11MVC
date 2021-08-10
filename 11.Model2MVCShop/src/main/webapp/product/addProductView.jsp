@@ -52,7 +52,17 @@
 	$( function() {
 	    $( "#manuDate" ).datepicker({dateFormat : "yy-mm-dd"});
 	  });
-	
+	//============="파일업로드" Event 연결 =============
+	var input = $( "input:file" ).css({
+  background: "yellow",
+  border: "3px red solid"
+	});
+	$( "div" )
+  		.text( "For this type jQuery found " + input.length + "." )
+  		.css( "color", "red" );
+	$( "form" ).submit(function( event ) {
+  	event.preventDefault();
+	});
 	function fncAddProduct(){
 
 		var name=$("input[name='prodName']").val();
@@ -134,8 +144,13 @@
 		 
 		 <div class="form-group">
 		    <label for="fileName" class="col-sm-offset-1 col-sm-3 control-label">상품이미지</label>
-		    <div class="col-sm-4">
-		      <input type="text" class="form-control" id="fileName" name="fileName" placeholder="상품이미지를 등록하세요">
+		    <div class="col-sm-4"> 
+		      <input type="file" class="form-control" id="fileName" name="fileName" placeholder="상품이미지를 등록하세요">
+		     <input type="hidden">
+  			 <input type="image">
+ 			 <input type="password">
+  			 <input type="radio">
+ 			 <input type="reset">
 		    </div>
 		 </div>
 	

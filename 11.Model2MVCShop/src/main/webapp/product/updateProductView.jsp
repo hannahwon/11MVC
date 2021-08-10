@@ -67,6 +67,18 @@
 	    $( "#manuDate" ).datepicker({dateFormat : "yy-mm-dd"});
 	  });
 	
+	//============="파일업로드" Event 연결 =============
+	var input = $( "input:file" ).css({
+  background: "yellow",
+  border: "3px red solid"
+	});
+	$( "div" )
+  		.text( "For this type jQuery found " + input.length + "." )
+  		.css( "color", "red" );
+	$( "form" ).submit(function( event ) {
+  	event.preventDefault();
+	});
+
 function fncUpdateProduct(){
 	//Form 유효성 검증
  
@@ -160,7 +172,12 @@ function fncUpdateProduct(){
 		 <div class="form-group">
 		    <label for="fileName" class="col-sm-offset-1 col-sm-3 control-label">상품이미지</label>
 		    <div class="col-sm-4">
-		      <input type="text" class="form-control" id="fileName" name="fileName" value="${product.fileName}" placeholder="변경상품이미지">
+		      <input type="file" class="form-control" id="fileName" name="fileName" value="${product.fileName}" placeholder="변경상품이미지">
+		       <input type="hidden">
+  				<input type="image">
+ 				 <input type="password">
+ 				 <input type="radio">
+ 				 <input type="reset">
 		    </div>
 		 </div>
 

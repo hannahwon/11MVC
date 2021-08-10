@@ -1,3 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/main/java/com/model2/mvc/common/Page.java=EUC-KR
 encoding//src/main/java/com/model2/mvc/common/Search.java=EUC-KR
+encoding//src/main/java/com/model2/mvc/service/product/ProductDAO.java=EUC-KR
+encoding//src/main/java/com/model2/mvc/service/product/ProductService.java=EUC-KR
+encoding//src/main/java/com/model2/mvc/service/product/impl/ProductDaoImpl.java=EUC-KR
+encoding//src/main/java/com/model2/mvc/service/product/impl/ProductServiceImpl.java=EUC-KR
+encoding//src/main/java/com/model2/mvc/web/user/UserRestController.java=EUC-KR

@@ -49,8 +49,9 @@
 
 	//============= "검색"  Event  처리 =============	
 	$(function() {
-		//$("td.ct_btn01:contains('검색')").on("click", function() {
-		//	fncGetList(1);
+		$(".btn btn-default:contains('검색')").on("click", function() {
+			fncGetList();
+		});
 	});
 	
 	//============= prodName 에 상품정보보기  Event  처리(Click) =============	
